@@ -1,0 +1,30 @@
+{
+  "name": "parcel-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist && parcel index.html",
+    "build": "rm -rf dist && parcel build --public-url ./ index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolas-van/parcel-pwa.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolas-van/parcel-pwa/issues"
+  },
+  "homepage": "https://github.com/nicolas-van/parcel-pwa#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-sw-cache": "^0.3.1"
+  },
+  "cache": {
+    "disablePlugin": false,
+    "inDev": true,
+    "strategy": "default",
+    "importWorkboxFrom": "local"
+  }
+}
