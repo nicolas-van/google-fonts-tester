@@ -68,7 +68,7 @@ class App extends React.Component {
                     {fontUrl ? <React.Fragment>
                     <link href={fontUrl} rel="stylesheet"></link>
                     <div className="card">
-                        <div className="card-body" style={{fontFamily: fontName, fontSize: '32px'}}>
+                        <div className="card-body" style={{fontFamily: `'${fontName}'`, fontSize: '32px'}}>
                             {text}
                         </div>
                     </div>
