@@ -25,12 +25,12 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "google-fonts-tester.1ea0f749.js",
-    "revision": "052a78b613d15f9b9364fa1d38ec5646"
+    "url": "google-fonts-tester.fd7f8757.js",
+    "revision": "d772826b7b5359f0671db061a40ba3a3"
   },
   {
     "url": "index.html",
-    "revision": "cd80ee889acb7d402fcc93756316d0f4"
+    "revision": "f88141a6c0a1e11d8e7cac762cf6b647"
   },
   {
     "url": "logo192.eae72d5d.png",
@@ -42,7 +42,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/",
-    "revision": "767c5171f6ca090939fc6c97bf50a65d"
+    "revision": "7c45ee889419f6ae950092980a558298"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
